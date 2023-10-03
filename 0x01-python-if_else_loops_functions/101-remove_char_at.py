@@ -8,8 +8,7 @@ def remove_char_at(input_str, n):
     return input_str[:n] + input_str[n+1:]
 
 # Example usage:
-original_str = "Hello, World!"
+original_str = " "
 index_to_remove = 5  # Remove the character 'o' at index 5 (C array index)
 result_str = remove_char_at(original_str, index_to_remove)
 print(result_str)  # Output: "Hello World!"
-
